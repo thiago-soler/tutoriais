@@ -1,0 +1,37 @@
+p{margin: 0; padding: 0; border: 0;}
+/* reset - obritatório - START */
+.tsInptFile{
+	width:0;
+	height:0;
+	position: relative;
+	float: left;
+	overflow: hidden;
+}
+/* reset - obritatório - END */
+form{display: block;}
+/* custom Styles - START */
+.tsCustomPath{
+	width: 300px;
+	height: 17px;
+	position: relative;
+	float: left;
+	padding: 8px;
+	background: #ef6d6d;
+	font: bold 14px/17px Arial;
+	white-space: nowrap;
+	color: #fff;
+	overflow: hidden;
+}
+.tsCustomButton{
+	width: 24px;
+	height: 17px;
+	position: relative;
+	float: left;
+	padding: 8px;
+	background: #df4c4c;
+	font: bold 14px/17px Arial;
+	white-space: nowrap;
+	color: #fff;
+	text-decoration: none;
+}
+/* custom Styles - END */

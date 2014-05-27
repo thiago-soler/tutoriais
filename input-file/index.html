@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="css/ts.input.file.css">
+		<title>TS - Input file custom</title>
+	</head>
+	<body>
+		<h1>TS - Input file custom</h1>
+		<form action="">
+		<input id="inptFileA" class="tsInptFile" type="file" />
+		</form>
+		<p id="textFileA" class="tsCustomPath">valor do campo inicial</p>
+		<a id="btnFileA" class="tsCustomButton" href="#">OK</a>
+		<script type="text/javascript" src="js/ts.input.file.min.js"></script>
+		
+		<script type="text/javascript">
+			ts.inputFile('inptFileA', 'btnFileA', 'textFileA' );
+		</script>
+	</body>
+</html>
